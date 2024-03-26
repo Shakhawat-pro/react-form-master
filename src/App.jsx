@@ -1,4 +1,5 @@
 import './App.css'
+import HookForm from './components/HookForm'
 import RefForm from './components/RefForm'
 import SimpleForm from './components/SimpleForm'
 import StateFullForm from './components/StateFullForm'
@@ -17,8 +18,15 @@ function App() {
           <StateFullForm></StateFullForm>
         </div>
       </div>
-      <div className='mt-10'>
-         <RefForm></RefForm>
+      <div className='flex justify-center gap-10 mt-10'>
+        <div>
+          <h2>Ref Form</h2>
+          <RefForm></RefForm>
+        </div>
+        <div>
+          <h2>Hook Form</h2>
+          <HookForm></HookForm>
+        </div>
       </div>
     </>
   )

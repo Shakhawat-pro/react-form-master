@@ -41,7 +41,7 @@ const StateFullForm = () => {
                 <input className="btn btn-primary mt-5" type="submit" value="Submit" />
             </form>
             {
-                error && <p className="text-red-600">{error}</p>
+                error && <p className="text-red-600 ">{error}</p>
             }
         </div>
     );
